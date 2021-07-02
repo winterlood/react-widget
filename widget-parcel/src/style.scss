@@ -1,0 +1,62 @@
+body {
+    background: rgb(245, 245, 245);
+}
+
+.react-widget {
+    .comment-component {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid gray;
+        padding: 10px;
+    }
+    .CommentForm {
+        background: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 20px;
+        margin-top: 20px;
+        input,
+        textarea {
+            // box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(220, 220, 220);
+            resize: vertical;
+        }
+        .author_box {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .submit_box {
+            margin-top: 10px;
+
+            button {
+                cursor: pointer;
+                border: 0px;
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                padding: 15px;
+                width: 100%;
+                background-color: black;
+                color: white;
+                border-radius: 5px;
+            }
+        }
+        margin-bottom: 30px;
+    }
+
+    .CommentItem {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius: 5px;
+        background: white;
+
+        .author {
+            font-size: 14px;
+            color: rgb(65, 65, 65);
+        }
+        .comment {
+            font-size: 18px;
+        }
+    }
+}
