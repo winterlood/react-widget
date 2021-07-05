@@ -6,7 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 firebase-debug.log*
 firebase-debug.*.log*
-
+widget-parcel/.cache/
+widget-parcel/dist/
 # Firebase cache
 .firebase/
 
